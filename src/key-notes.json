@@ -1,0 +1,19 @@
+{
+  "a": { "note": "C",  "posModifier": 0 },
+  "w": { "note": "Db", "posModifier": 0 },
+  "s": { "note": "D",  "posModifier": 0 },
+  "e": { "note": "Eb", "posModifier": 0 },
+  "d": { "note": "E",  "posModifier": 0 },
+  "f": { "note": "F",  "posModifier": 0 },
+  "t": { "note": "Gb", "posModifier": 0 },
+  "g": { "note": "G",  "posModifier": 0 },
+  "y": { "note": "Ab", "posModifier": 0 },
+  "h": { "note": "A",  "posModifier": 0 },
+  "u": { "note": "Bb", "posModifier": 0 },
+  "j": { "note": "B",  "posModifier": 0 },
+  "k": { "note": "C",  "posModifier": 1 },
+  "o": { "note": "Db", "posModifier": 1 },
+  "l": { "note": "D",  "posModifier": 1 },
+  "p": { "note": "Eb", "posModifier": 1 },
+  ";": { "note": "E",  "posModifier": 1 }
+}

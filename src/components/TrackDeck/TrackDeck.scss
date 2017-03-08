@@ -1,0 +1,19 @@
+@import '../../_variables.scss';
+
+.track-deck {
+  background: #333;
+  box-sizing: border-box;
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: auto;
+  padding-bottom: $keyboard-height;
+  white-space: nowrap;
+  width: 100%;
+
+  .track {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+    width: 150px;
+  }
+}

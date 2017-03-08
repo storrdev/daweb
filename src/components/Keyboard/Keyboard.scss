@@ -1,0 +1,12 @@
+@import '../../_variables.scss';
+
+.keyboard {
+  border:     2px solid black;
+  bottom:     0;
+  box-sizing: border-box;
+  height:     $keyboard-height;
+  left:       0;
+  overflow:   hidden;
+  position:   absolute;
+  width:      100%;
+}

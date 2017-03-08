@@ -1,0 +1,122 @@
+// Rainbow key colors:
+$C0:  #FB3046;
+$Db0: #FE5127;
+$D0:  #F77610;
+$Eb0: #E49C03;
+$E0:  #C9BF01;
+$F0:  #A7DD0A;
+$Gb0: #82F21E;
+$G0:  #5CFD3A;
+$Ab0: #3AFD5D;
+$A0:  #1DF283;
+$Bb0: #0ADCA8;
+$B0:  #01BECA;
+$C1:  #039BE5;
+$Db1: #1175F7;
+$D1:  #2850FE;
+$Eb1: #472FFA;
+$E1:  #9106D3;
+
+.key {
+  align-items:     center;
+  border-color:    black;
+  border-style:    solid;
+  box-sizing:      border-box;
+  border-width:    2px;
+  cursor:          pointer;
+  display:         flex;
+  float:           left;
+  height:          100%;
+  justify-content: center;
+
+  &.black {
+    background:   black;
+    box-shadow:   0 0 10px #444;
+    color:        white;
+    height:       60%;
+    margin-left:  -3%;
+    margin-right: -3%;
+    position:     relative;
+    width:        6%;
+    z-index:      2;
+  }
+
+  &.white {
+    background:   white;
+    color:        black;
+    position:     relative;
+    width:        10%;
+    z-index:      1;
+  }
+
+  &.pressed {
+    // Crazy color by note stuff
+    &.C0 {
+      background: $C0;
+    }
+
+    &.Db0 {
+      background: $Db0;
+    }
+
+    &.D0 {
+      background: $D0;
+    }
+
+    &.Eb0 {
+      background: $Eb0;
+    }
+
+    &.E0 {
+      background: $E0;
+    }
+
+    &.F0 {
+      background: $F0;
+    }
+
+    &.Gb0 {
+      background: $Gb0;
+    }
+
+    &.G0 {
+      background: $G0;
+    }
+
+    &.Ab0 {
+      background: $Ab0;
+    }
+
+    &.A0 {
+      background: $A0;
+    }
+
+    &.Bb0 {
+      background: $Bb0;
+    }
+
+    &.B0 {
+      background: $B0;
+    }
+
+    &.C1 {
+      background: $C1;
+    }
+
+    &.Db1 {
+      background: $Db1;
+    }
+
+    &.D1 {
+      background: $D1;
+    }
+
+    &.Eb1 {
+      background: $Eb1;
+    }
+
+    &.E1 {
+      background: $E1;
+    }
+  }
+}
